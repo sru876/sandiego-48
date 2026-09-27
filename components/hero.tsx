@@ -31,7 +31,8 @@ export function Hero() {
         <h1 className="max-w-3xl text-5xl font-extrabold leading-[1.02] tracking-tight text-white sm:text-6xl md:text-7xl">
           Your Perfect 48 Hours in <span className="text-ocean-light">San Diego.</span>
         </h1>
-        <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/90 md:text-xl">
+        <p className="mt-4 font-heading text-xl font-semibold text-ocean-light md:text-2xl">Your weekend starts here.</p>
+        <p className="mt-4 max-w-xl text-lg leading-relaxed text-white/90 md:text-xl">
           Sun, surf, tacos, and sunsets on a student budget. Here&apos;s everything you need to pull off the perfect
           weekend getaway with your crew.
         </p>
