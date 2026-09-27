@@ -17,7 +17,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
         <a href="#top" className="flex items-center gap-2 font-heading text-lg font-bold text-ocean-deep">
-          <span className="flex size-8 items-center justify-center rounded-full bg-sunset text-sunset-foreground">
+          <span className="flex size-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
             <Sun className="size-4" aria-hidden="true" />
           </span>
           48 Hours in SD

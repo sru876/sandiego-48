@@ -72,7 +72,7 @@ export function FoodAndCoffee() {
               sizes="(min-width: 1024px) 50vw, 100vw"
               className="object-cover"
             />
-            <p className="absolute bottom-4 left-4 rounded-full bg-sunset px-4 py-1.5 text-sm font-semibold text-sunset-foreground">
+            <p className="absolute bottom-4 left-4 rounded-full bg-primary px-4 py-1.5 text-sm font-semibold text-primary-foreground">
               Budget tip: Taco Tuesday is real here
             </p>
           </div>

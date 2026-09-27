@@ -97,7 +97,7 @@ export function Itinerary() {
                   <span aria-hidden="true" className="absolute left-[5.5px] top-4 h-full w-px bg-border md:left-[calc(6rem+5.5px)]" />
                 )}
                 <p className="hidden w-24 shrink-0 pt-0.5 text-sm font-semibold text-muted-foreground md:block">{stop.time}</p>
-                <span aria-hidden="true" className="relative mt-1.5 size-3 shrink-0 rounded-full bg-sunset ring-4 ring-accent" />
+                <span aria-hidden="true" className="relative mt-1.5 size-3 shrink-0 rounded-full bg-primary ring-4 ring-accent" />
                 <div className="flex-1">
                   <p className="text-sm font-semibold text-muted-foreground md:hidden">{stop.time}</p>
                   <p className="font-heading text-lg font-bold text-foreground">{stop.title}</p>

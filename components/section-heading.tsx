@@ -15,7 +15,7 @@ export function SectionHeading({
 }) {
   return (
     <div className={cn('max-w-2xl', className)}>
-      <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-sunset">{eyebrow}</p>
+      <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-primary">{eyebrow}</p>
       <h2 id={id} className="text-4xl font-extrabold tracking-tight text-ocean-deep md:text-5xl">
         {title}
       </h2>

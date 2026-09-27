@@ -88,8 +88,8 @@ export function PlanWeekend() {
                       className={cn(
                         'cursor-pointer rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-ring',
                         budget === b.id
-                          ? 'border-sunset bg-sunset text-sunset-foreground'
-                          : 'border-border bg-card text-foreground hover:border-sunset',
+                          ? 'border-primary bg-primary text-primary-foreground'
+                          : 'border-border bg-card text-foreground hover:border-primary',
                       )}
                     >
                       <input

@@ -12,6 +12,7 @@
   --color-sunset: var(--sunset);
   --color-sunset-foreground: var(--sunset-foreground);
   --color-ocean-deep: var(--ocean-deep);
+  --color-ocean-light: var(--ocean-light);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -50,6 +51,7 @@
   --primary: oklch(0.55 0.14 235);
   --primary-foreground: oklch(0.99 0 0);
   --ocean-deep: oklch(0.32 0.09 240);
+  --ocean-light: oklch(0.82 0.1 220);
   --secondary: oklch(0.95 0.035 235);
   --secondary-foreground: oklch(0.32 0.09 240);
   --sand: oklch(0.94 0.035 80);
@@ -58,8 +60,8 @@
   --sunset-foreground: oklch(0.99 0 0);
   --muted: oklch(0.965 0.015 80);
   --muted-foreground: oklch(0.48 0.03 245);
-  --accent: oklch(0.95 0.045 55);
-  --accent-foreground: oklch(0.45 0.13 40);
+  --accent: oklch(0.94 0.04 230);
+  --accent-foreground: oklch(0.4 0.12 240);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.91 0.02 80);
   --input: oklch(0.91 0.02 80);

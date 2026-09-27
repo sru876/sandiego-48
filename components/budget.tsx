@@ -14,7 +14,7 @@ export function Budget() {
     <section id="budget" aria-labelledby="budget-heading" className="scroll-mt-16 bg-ocean-deep py-20 text-white md:py-28">
       <div className="mx-auto grid max-w-6xl gap-12 px-4 md:px-6 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-sunset">Estimated budget</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-primary">Estimated budget</p>
           <h2 id="budget-heading" className="text-4xl font-extrabold tracking-tight md:text-5xl">
             About ${budgetTotal} for the whole weekend
           </h2>
@@ -24,13 +24,13 @@ export function Budget() {
 
           <div className="mt-8 rounded-2xl bg-white/10 p-6 ring-1 ring-white/15">
             <p className="flex items-center gap-2 font-heading text-lg font-bold">
-              <PiggyBank className="size-5 text-sunset" aria-hidden="true" />
+              <PiggyBank className="size-5 text-primary" aria-hidden="true" />
               Save-money tips
             </p>
             <ul className="mt-4 flex flex-col gap-3">
               {tips.map((tip) => (
                 <li key={tip} className="flex gap-3 text-white/85">
-                  <span aria-hidden="true" className="mt-2 size-1.5 shrink-0 rounded-full bg-sunset" />
+                  <span aria-hidden="true" className="mt-2 size-1.5 shrink-0 rounded-full bg-primary" />
                   {tip}
                 </li>
               ))}
